@@ -1,3 +1,25 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+
+
+def game_choice():
+    """
+    Get users choice, numbers 1 and 3.
+    """
+    
+
+def computer_choosing():
+    """
+    Computer generates a random number between 1 and 3
+    User inputs a number guess between 1 and 3
+    """
+
+
+def game_play():
+    """
+    Brings the game play together
+    """
+    game_choice()
+    computer_choosing()
+
+
+game_play()
